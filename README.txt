@@ -1,6 +1,6 @@
 # terraform-aks-helm-sonarqube
 # Procedure
-terraform init
+terraform init 
 terraform plan
 terraform apply
 echo "$(terraform output kube_config)" > azurek8s
