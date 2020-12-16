@@ -1,7 +1,7 @@
 # terraform-aks-helm-sonarqube
 # Procedure
 az login
-az account set --subscription "My Demos"
+az account set --subscription "Subscription ID"
 terraform init 
 terraform plan
 terraform apply
